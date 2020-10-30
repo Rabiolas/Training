@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: indianred;
+    font-family: Helvetica;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#mainBox {
+    width: 70%;
+    min-height: 200px;
+    background-color: white;
+    opacity: 95%;
+    border-radius: 5px;
+    display: flex; 
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form { 
+    margin: 20px;
+    padding: 20px;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 18px;
+}
